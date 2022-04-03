@@ -1,0 +1,30 @@
+body {
+    background: whitesmoke;
+    text-align: center;
+    font-family: "Helvetica";
+    background-image: linear-gradient(to right, rgb(204, 232, 255), rgb(106, 148, 151));
+}
+
+.button {
+    background-color: whitesmoke;
+    border: none;
+    border: 1px solid #34073D;
+    cursor: pointer;
+} 
+
+.buttonV:hover {
+    background-color: #09E01B;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.buttonX:hover {
+    background-color: #EB0927;
+    color: #fff;
+    transition: 0.5s;
+}
+
+input[type="text"]
+{
+    outline: none;
+}

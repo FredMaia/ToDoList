@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ToDoList</h1>
+    </header>
+
+    <section>
+      <div>Digite suas tarefas: </div>
+
+      <br>
+
+      <div id="res1">
+        <input type="text" name="" id="firstTask">
+        <button onclick="firstDone()" class="button buttonV">V</button>
+        <button onclick="firstClear()" class="button buttonX">X</button>
+      </div>
+
+      <div id="res2">
+        <input type="text" name="" id="secondTask">
+        <button onclick="secondDone()" class="button buttonV">V</button>
+        <button onclick="secondClear()" class="button buttonX">X</button>
+      </div>
+
+      <div id="res3">
+        <input type="text" name="" id="thirdTask">
+        <button onclick="thirdDone()" class="button buttonV">V</button>
+        <button onclick="thirdClear()" class="button buttonX">X</button>
+      </div>
+
+      <div id="res4">
+        <input type="text" name="" id="fourthTask">
+        <button onclick="fourthDone()" class="button buttonV">V</button>
+        <button onclick="fourthClear()" class="button buttonX">X</button>
+      </div>
+      
+      <div id="res5">
+        <input type="text" name="" id="fifthTask">
+        <button onclick="fifthDone()" class="button buttonV">V</button>
+        <button onclick="fifthClear()" class="button buttonX">X</button>
+      </div>
+       
+      <br>
+
+      <button onclick="clearEverything()">Limpar tudo</button>
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
